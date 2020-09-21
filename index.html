@@ -11,6 +11,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+
+    <!--LAPTIX-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.20.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+<!--E-LAPTIX-->
 </head>
 
 <body>
@@ -35,6 +47,18 @@
             </div>
         </div>
     </nav>
+
+    <p id="jav" >Click For Button</p>
+    <button onclick="myFunction()">clickMe</button>
+
+    <script>
+    function myFunction() {
+    var x = document.getElementById("jav");
+    x.style.fontSize = "25px";
+    x.style.color = "red";
+    }
+    </script>
+
 
     <!-- First Container -->
     <div class="container-fluid bg-1 text-center">
